@@ -1,0 +1,596 @@
+<!doctype html>  
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>DPOINT.C</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+
+  <!--애니메이트-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.slide').bxSlider({
+                auto: true,
+                slideWidth: 1920
+            });
+            
+			$('.best_menu1').bxSlider({
+			auto: true
+			});
+            
+			$('.best_menu2').bxSlider({
+			auto: true
+			});
+            
+			$('.best_menu3').bxSlider({
+			auto: true
+			});
+            
+            
+                      
+           
+           $('#hidden').hide();
+
+            $('.gnb_menu').click(function() {
+             $('#hidden').stop().slideDown();
+            });
+
+            $(".close").click(function() {
+                $('#hidden').stop().slideUp();
+            });   
+            
+            
+             $('#hidden_m').hide();
+            $('.hd_button').click(function() {
+                $('#hidden_m').stop().fadeIn();
+            });
+
+            $(".close2").click(function() {
+             $('#hidden_m').stop().fadeOut();
+            });   
+            
+
+       
+           $(function(){
+		   $('.tab_content>li>a').click(function(){
+			$(this).parent().addClass("active").siblings().removeClass("active");
+				return false;
+			  });
+		  });
+            
+            
+            
+            
+       });
+    
+
+      
+        
+        
+        $(window).scroll(function() {
+ if ($(this).scrollTop() > 1000) {
+ $("#gotop").fadeIn();
+ } else{
+ $("#gotop").fadeOut();
+ }
+            
+});
+        
+
+
+    </script>
+    
+    
+    
+</head>
+
+<body>
+
+
+
+   
+
+   
+    
+    <header id="header">
+    
+        <section class="header_inner">
+
+                        <ul class="top_menu">
+                <li><a href="#"><img src="images/en.png" alt="영문"></a></li>
+                <li><a href="#"><img src="images/kr.png" alt="국문"></a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">JOIN</a></li>
+                <li><a href="#">MYPAGE</a></li>
+            </ul>
+          
+            
+            
+            
+            
+            
+        </section>
+
+    </header>
+
+   
+    <section id="gnb">
+        <div class="gnb_inner">
+                       
+
+            <p class="logo"><a href="main.html"><img src="images/DPOINT-C_LOGO2.png" alt="로고"></a></p>
+           
+<ul class="gnb_menu">
+                <li><a href="#">company</a></li>
+                <li><a href="#">product </a></li>
+                <li><a href="#">community</a></li>
+                <li><a href="#">shop</a></li>
+            </ul>
+          
+            <div class="hd_button"><img src="images/hidden_button.png" alt="히든메뉴 버튼" width="35"></div>
+        </div>
+        
+        <section id="hidden">
+         <p class="close"><a href="#"><img src="images/close_button.png" alt="닫기버튼" ></a></p>   
+        <div class="hidden_inner">
+        <ul class="dp2">
+            <li><a href="#">Dpint.c</a></li>
+            <li><a href="#">Brand
+</a></li>
+            <li><a href="#">BI</a></li>
+            <li><a href="#">Directions
+</a></li>
+        </ul>
+        
+           <ul class="dp2">
+            <li><a href="#">Acrylic
+</a></li>
+            <li><a href="#">Oil</a></li>
+            <li><a href="#">Ink
+</a></li>
+            <li><a href="#">Posterr
+</a></li>
+            <li><a href="#">Water
+</a></li>
+            <li><a href="#">Maker</a></li>
+            <li><a href="#">Spray
+</a></li>
+            <li><a href="#">Body painting
+</a></li>
+        </ul>
+        
+           <ul class="dp2">
+            <li><a href="#">Announce
+</a></li>
+            <li><a href="#">Q&amp;A
+</a></li>
+            <li><a href="#">Ogency</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+        
+           <ul class="dp2">
+            <li><a href="#">order
+</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">wish list</a></li>
+       
+        </ul>
+            
+        </div>
+        
+        <ul class="AA">
+          <li><input class="search" type="search"  value="Search"></li> 
+        </ul>
+        
+        
+        </section>
+         </section>
+
+   
+  
+   
+   
+    <section id="visuar">
+        <ul class="slide">
+            <li><a href="#"><img src="images/main_banner1.png" alt="메인베너1" width="100%" height="100%"></a></li>
+            <li><a href="#"><img src="images/main_baneer2.png" alt="메인베너2"width="100%" height="100%"></a></li>
+            <li><a href="#"><img src="images/main_banner3.png" alt="메인베너3"width="100%" height="100%"></a></li>
+            <li><a href="#"><img src="images/main_banner4.png" alt="메인베너3"width="100%" height="100%"></a></li>
+            <li><a href="#"><img src="images/main_banner5.png" alt="메인베너3"width="100%" height="100%"></a></li>
+            <li><a href="#"><img src="images/main_banner6.png" alt="메인베너3"width="100%" height="100%"></a></li>
+
+
+        </ul>
+        
+    </section>
+    
+
+
+    
+    
+    
+    <section id="best">
+        <div class="best_inner">
+    	<p class="best_title"><a href="#"><img src="images/best_title2.png" alt="베스트상품" width="100%" height="100%"></a></p>
+        <div style="height: 20px"></div>
+           
+            
+    <div class="tab_area">
+          <ul class="tab_content">
+            <li class="active"><a href="#">Oil</a>
+            
+                <div class="line_1">
+                	<div class="best_menu">
+                        <ul class="best_menu1">
+                            <li><a href="#"><img src="images/best_menu1.png" alt="상품이미지1" width="90%" height="90%"></a></li>
+                            <li><a href="#"><img src="images/best_menu2.png" alt="상품이미지2" width="90%" height="90%"></a></li>
+                            <li><a href="#"><img src="images/best_menu3.png" alt="상품이미지3" width="90%" height="90%"></a></li>
+                            <li><a href="#"><img src="images/best_menu4.png" alt="상품이미지4" width="90%" height="90%"></a></li>
+                            <li><a href="#"><img src="images/best_menu5.png" alt="상품이미지5" width="90%" height="90%"></a></li>
+                            <li><a href="#"><img src="images/best_menu6.png" alt="상품이미지6" width="90%" height="90%"></a></li>
+                        </ul>
+                	</div>
+                    
+                    <ul class="best_img">
+                        <li><a href="#"><img src="images/b1.png" alt="상품1"></a><p>DPC-O302</p></li>
+                        <li><a href="#"><img src="images/b2.png" alt="상품2"></a><p>DPC-O30A</p></li>
+                        <li><a href="#"><img src="images/b3.png" alt="상품3"></a><p>DPC-O303</p></li>
+                        <li><a href="#"><img src="images/b4.png" alt="상품4"></a><p>DPC-A207</p></li>
+                        <li><a href="#"><img src="images/b5.png" alt="상품5"></a><p>DPC-P900</p></li>
+                        <li><a href="#"><img src="images/b6.png" alt="상품6"></a><p>DPC-O305</p></li>
+                    </ul>
+                </div>
+            
+            </li> 
+             
+            <li><a href="#">Acrylic</a>
+            
+                <div class="line_2">  
+                <div class="best_menu">  
+                    <ul class="best_menu2">
+                        <li><a href="#"><img src="images/acrylic_1.jpg" alt="상품이미지1" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/acrylic_2.jpg" alt="상품이미지2" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/acrylic_3.jpg" alt="상품이미지3" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/acrylic_4.jpg" alt="상품이미지4" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/acrylic_5.jpg" alt="상품이미지5" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/acrylic_6.jpg" alt="상품이미지6" width="90%" height="90%"></a></li>
+                    </ul>
+                </div>
+                                   
+                    <ul class="best_img">
+                        <li><a href="#"><img src="images/a1.jpg" alt="상품1"></a><p>DPC-A311</li>
+                        <li><a href="#"><img src="images/a2.jpg" alt="상품2"></a><p>DPC-A312</p></li>
+                        <li><a href="#"><img src="images/a3.jpg" alt="상품3"></a><p>DPC-A313</p></li>
+                        <li><a href="#"><img src="images/a4.jpg" alt="상품4"></a><p>DPC-A314</p></li>
+                        <li><a href="#"><img src="images/a5.jpg" alt="상품5"></a><p>DPC-A315</p></li>
+                        <li><a href="#"><img src="images/a6.jpg" alt="상품6"></a><p>DPC-A316</p></li>
+                    </ul>
+                </div>
+            
+            </li> 
+            
+            <li><a href="#">Ink </a>
+            
+                <div class="line_3">
+                <div class="best_menu">
+                    <ul class="best_menu3">
+                        <li><a href="#"><img src="images/ink_1.jpg" alt="상품이미지1" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/ink_2.jpg" alt="상품이미지2" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/ink_3.jpg" alt="상품이미지3" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/ink_4.jpg" alt="상품이미지4" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/ink_5.jpg" alt="상품이미지5" width="90%" height="90%"></a></li>
+                        <li><a href="#"><img src="images/ink_6.jpg" alt="상품이미지6" width="90%" height="90%"></a></li>
+                     </ul>
+                 </div>
+                
+                    <ul class="best_img">
+                        <li><a href="#"><img src="images/i1.jpg" alt="상품1"></a><p>DPC-AI311</li>
+                        <li><a href="#"><img src="images/i2.jpg" alt="상품2"></a><p>DPC-AI312</p></li>
+                        <li><a href="#"><img src="images/i3.jpg" alt="상품3"></a><p>DPC-AI313</p></li>
+                        <li><a href="#"><img src="images/i4.jpg" alt="상품4"></a><p>DPC-AI314</p></li>
+                        <li><a href="#"><img src="images/i5.jpg" alt="상품5"></a><p>DPC-AI315</p></li>
+                        <li><a href="#"><img src="images/i6.jpg" alt="상품6"></a><p>DPC-AI316</p></li>
+                    </ul>
+                </div>
+
+            </li>
+          </ul>
+     </div>
+        
+                     
+		</div>
+	</section>
+    
+    
+           <section id="hidden_m">
+<div class="hidden_m_inner">
+     <p class="close2">CLOSE</p>
+      <div class="bg3"><img src="images/DPOINT-C_LOGO2.png" alt="로고" width="201px"></div>
+       <ul class="hd_menu">
+                <li><a href="#">company</a>
+                  <ul class="dp3">
+            <li><a href="#">Dpint.c</a></li>
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">BI</a></li>
+            <li><a href="#">Directions</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">product </a>
+                  <ul class="dp3">
+            <li><a href="#">Acrylic</a></li>
+            <li><a href="#">Oil</a></li>
+            <li><a href="#">Ink</a></li>
+            <li><a href="#">Posterr</a></li>
+            <li><a href="#">Water</a></li>
+            <li><a href="#">Maker</a></li>
+            <li><a href="#">Spray</a></li>
+            <li><a href="#">Body painting</a></li>
+        </ul>                
+                </li>
+                <li><a href="#">community</a>
+                 <ul class="dp3">
+            <li><a href="#">Announce
+</a></li>
+            <li><a href="#">Q&amp;A
+</a></li>
+            <li><a href="#">Ogency</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+                </li>
+                <li><a href="#">cs-center</a>
+                     <ul class="dp3">
+            <li><a href="#">Cart
+</a></li>
+            <li><a href="#">wish list</a></li>
+        </ul>
+        </li>
+        </ul>
+    
+    </div>
+   </section>
+   
+    
+    
+    
+     <section id="gt">
+         <div class="gt_banner">
+             <a href="#"><img src="images/gt_bg.png" alt="그래피티 배너" width="100%" height="100%"></a>
+         </div>    
+     
+     </section>
+
+    
+    
+    
+     <section id="gt_video">
+     <div class="video_inner">
+  
+    <div class="position">
+       <iframe width="805" height="550" src="https://www.youtube.com/embed/5wDJCoPQGu4?autoplay=1" muted frameborder="0"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+       
+
+       
+        
+     
+         
+            <div class="gt_txt1">
+        <div class="gt_txt2">
+                <ul class="title"><li><img src="images/Group 94.png" alt="아이콘1"  width="80px"></li>
+        <li>Nozzle Type</li>
+        </ul>   
+    <p>DPC-G001&nbsp; DPC-G002<br>
+DPC-G003&nbsp; DPC-G004<br><br>
+       <span>
+nozzle type suitable<br>
+for detailed work with<br>
+precision dispensing<br>
+       </span>
+       </p>    
+        
+    <a href="#"><img src="images/Group 77.png" alt="자세히보기"></a>    
+    </div>
+    </div>
+         </div>
+     </div>
+    
+    </section>
+
+    
+    
+    
+
+    
+     <section id="gt_video2">
+         <div class="video2_inner">
+        <ul class="vd">
+            <li><a href="https://www.youtube.com/embed/uEnArNvOp80"><img src="images/iframe_1.jpg" art="그래피티1"></a><div></div></li>
+            <li><div class="gt2"><a href="https://www.youtube.com/embed/y5-TGSqmJow"><img src="images/iframe_2.jpg" art="그래피티2"></a></div></li>
+            <li><div class="gt3"><a href="https://www.youtube.com/embed/hsG2xR-aug4"><img src="images/iframe_3.jpg" art="그래피티3"></a></div></li>
+            <li><div class="gt4"><a href="https://www.youtube.com/embed/Ub-eJDP2dOQ"><img src="images/iframe_4.jpg" art="그래피티4"></a></div></li>
+          
+
+             </ul>   
+             
+         </div>
+    </section>
+    
+    
+    
+    
+    <div class="bbb" style="width: 100%"></div>
+      
+     <section id="md_menu">
+         <div class="md_inner">
+             <div class="md_title">
+             <H2>RECOMMEND</H2>
+             <ul class="more">
+             <li><a href="#"><img src="images/MORE.png"alr="더보기버튼"></a></li>
+             <li><a href="#">MORE</a></li>
+             </ul>
+            </div>
+         <ul class="menu">
+             <li><a href="#"><img src="images/color1.jpg"alt="메뉴1" width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD1.png" alt="상품1"></p>  </li>
+                <li><a href="#"><img src="images/color2.jpg"alt="메뉴2"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD2.png" alt="상품2"></p>  </li>
+                <li><a href="#"><img src="images/color3.jpg"alt="메뉴3"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD3.png" alt="상품3"></p>  </li>
+                 <li><a href="#"><img src="images/color4.jpg"alt="메뉴4"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD4.png" alt="상품4"></p>  </li>
+                 <li><a href="#"><img src="images/color5.jpg"alt="메뉴5"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD5.png" alt="상품5"></p>  </li>
+                 <li><a href="#"><img src="images/color6.jpg"alt="메뉴6"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD6.png" alt="상품6"></p>  </li>
+                 <li><a href="#"><img src="images/color7.jpg"alt="메뉴7"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD7.png" alt="상품7"></p>  </li>
+                 <li><a href="#"><img src="images/color8.jpg"alt="메뉴8"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD8.png" alt="상품8"></p>  </li>
+                 <li><a href="#"><img src="images/color9.jpg"alt="메뉴9"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD9.png" alt="상품9"></p>  </li>
+                    <li><a href="#"><img src="images/color10.jpg"alt="메뉴10"width="228"><div><p>O302</p></div></a>
+                 <h1>Serial Number : DPC-O302</h1>
+             <p>4color Professional Oil color<br>
+                size 40ml Tube </p>
+             <p><img src="images/MD10.png" alt="상품10"></p>  </li>
+             </ul>
+         
+             
+                  <ul class="more2">
+             <li><a href="#"><img src="images/MORE.png"alr="더보기버튼"></a></li>
+             <li><a href="#">MORE</a></li>
+             </ul>     
+         </div>
+         
+
+         
+    </section>
+    
+    
+      <section id="body_spray">
+        <div class="body_inner">
+        <p><span>body painting series</span><br>
+            Expressing vivid colors<br>
+skin irritation with natural ingredients <br>
+Minimized DPOINT.C's own special<br> 
+construction method<br>
+completed body painting series<br>
+            <a href="#"><img src="images/Group 77.png" alt="자세히보기"></a></p>    
+            
+          <h1><a href="#"><img src="images/body1.png" alt="바디페인팅 컬러"></a></h1>
+            <h2><a href="#"><img src="images/body2.png" alt="바디페인팅 흑백"></a></h2>
+    
+        
+          </div>  
+         
+    
+    </section>
+    
+    
+      <section id="store">
+             <img src="images/store_bg.png" alt="가맹점" width="100%" height="100%">
+          
+          <div class="bg">
+           
+              <h2>DPOINT.C STORE</h2>
+          <p>Seomyeon Gwangbok Goejeong<br>
+Seodaesin Hadan Dadepo beach<br>
+              <span><a href="#">+MORE</a></span></p>
+         
+          </div>
+          
+          <div class="store_inner">
+     
+          </div>
+    </section>
+    
+    
+      <section>
+    </section>
+    
+    <footer id="footer">
+        <div class="footer_inner">
+            <ul class="footer_menu">
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">TERMS OF USE</a></li>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">GUIDE</a></li>
+            </ul>
+            
+            <ul class="footer_menu2">
+                <li><img src="images/cs_center.png"alt="헤드셋아이콘" width="45px" height="48px"></li>
+                <li>CS CENTER<br>
+<span>1577-1234</span></li>
+           <li><span>BANKING INFO</span><br>
+123-910017-45678 하나은행</li>
+           
+            </ul>
+        
+        <address>
+        Address : 518, Samseong-ro, Gangnam-gu, Seoul, Republic of Korea
+Personal Information Management :  dpoint cs_senter / Tel : 1899-1234
+Mail : dpoint_c.gmail.com / Tel : 02-123-4567 / Fax : 02-123-4568
+Communications Sales Business Report : 2017-Seoul Gangnam-02297
+corporate registration number : 138-85-1961 
+    
+        </address>
+        
+        <ul class="footer_logo">
+        <li><a href="#"><img src="images/footer_logo.png" alt="풋터로고" width="150"></a></li>    
+        <li>copyright ⓒ dpoint_c design</li>    
+        </ul>
+        
+        <section>
+        <ul class="sns">
+        <li><a href="#"><img src="images/insta.png" alt="인스타" width="75px" height="75px"></a></li>        
+        <li><a href="#"><img src="images/kakao.png" alt="카카오톡" width="75px" height="75px"></a></li>        
+        <li><a href="#"><img src="images/facebook.png" alt="페이스북" width="75px" height="75px"></a></li>        
+        <li><a href="#"><img src="images/twitter.png" alt="트위터" width="75px" height="75px"></a></li>        
+        <li><a href="#"><img src="images/naver.png" alt="네이버" width="75px" height="75px"></a></li>        
+        </ul>    
+        </section>
+        </div>
+    </footer>
+
+    
+       
+    <a href="#" id="gotop"><p>TOP</p></a>
+    
+  
+ 
+</body>
+
+</html>
